@@ -61,10 +61,26 @@ h2 {
     color: #5d4037;
 }
 
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+}
+
 .productos {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+   flex: 1;
+    min-width: 200px;
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
 }
 
 .producto {
